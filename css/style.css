@@ -1,0 +1,108 @@
+
+body{
+
+background-image: url("../img/pizza.jpg");
+background-size: 100%;
+z-index:-2;
+background-repeat: no-repeat;
+margin-left:-30%;
+}
+
+
+.enregistre{
+
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	/*border:solid 1px red;*/
+	justify-content: center;
+	align-items: center;
+	width:50vw;
+	overflow: hidden;
+	height:100vh;
+}
+
+#color{
+		background-color:#CC5654;
+		width:100%;
+		height:100%;
+		z-index:-5;
+		position: absolute;
+
+}
+#motif{
+	position: absolute;
+	background-image:url('../img/FOND.png');
+	filter:invert(100%);
+	width:220%;
+	height:100%;
+	z-index:-4;
+	opacity: 0.4;
+	
+}
+.connexion{
+	position: absolute;
+	top:0;
+	right:0;
+	display: flex;
+	flex-direction: column;
+/*	border:solid 1px green;*/
+	justify-content: center;
+	align-items: center;
+	width:50vw;
+	height:100vh;
+
+}
+
+#color2{
+		background-color:#E7D14A;
+		opacity: 0.5;
+		width:100%;
+		height:100%;
+		z-index:-5;
+		position: absolute;s
+}
+
+nav h6{
+	font-family:'Montserrat';
+	font-size:2.8em;
+	color:#ffffff;
+	margin-bottom: 15px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+	height:20vh;
+}
+
+form input{
+	flex-direction: column;
+	border-radius:5px;
+	width:40em;
+	height:50px;
+	margin-top: 5px;
+	border:none;
+	padding-left: 10px;
+	text-align:left;
+	justify-content: space-around;
+}
+
+form button{
+	margin-top:5px;
+	background-color: #ffffff;
+	border: none;
+	width:5vw;
+	height:3vh;
+	border-radius:15px;
+}
+
+nav a{
+	margin-top:10px;
+	color:#ffffff;
+	font-family: 'Montserrat';
+	text-decoration-line: none;
+	text-align: center;
+}
